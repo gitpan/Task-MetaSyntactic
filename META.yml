@@ -31,7 +31,8 @@ requires:
   Acme::MetaSyntactic::vim: 0
   Acme::MetaSyntactic::xkcdcommon1949: 0
   strict: 0
+  warnings: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-MetaSyntactic
   repository: http://github.com/book/Task-MetaSyntactic.git
-version: 1.027
+version: 1.028
