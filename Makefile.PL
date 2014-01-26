@@ -28,9 +28,11 @@ my %WriteMakefileArgs = (
     "Acme::MetaSyntactic::dune" => 0,
     "Acme::MetaSyntactic::errno" => 0,
     "Acme::MetaSyntactic::legobatman" => 0,
+    "Acme::MetaSyntactic::legocityundercover" => 0,
     "Acme::MetaSyntactic::legoharrypotter" => 0,
     "Acme::MetaSyntactic::legoindianajones" => 0,
     "Acme::MetaSyntactic::legolotr" => 0,
+    "Acme::MetaSyntactic::legomarvelsuperheroes" => 0,
     "Acme::MetaSyntactic::legopiratesofthecaribbean" => 0,
     "Acme::MetaSyntactic::morning_musume" => 0,
     "Acme::MetaSyntactic::nethack" => 0,
@@ -40,7 +42,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.028",
+  "VERSION" => "1.029",
   "test" => {
     "TESTS" => "t/*.t"
   }

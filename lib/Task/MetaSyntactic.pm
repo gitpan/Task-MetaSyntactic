@@ -1,6 +1,6 @@
 package Task::MetaSyntactic;
 {
-  $Task::MetaSyntactic::VERSION = '1.028';
+  $Task::MetaSyntactic::VERSION = '1.029';
 }
 
 use strict;
@@ -18,7 +18,7 @@ Task::MetaSyntactic - All Acme::MetaSyntactic themes at once
 
 =head1 VERSION
 
-version 1.028
+version 1.029
 
 =head1 SYNOPSIS
 
@@ -73,11 +73,15 @@ L<Acme::MetaSyntactic::errno> - The Errno theme (BOOK)
 
 L<Acme::MetaSyntactic::legobatman> - LEGO Batman theme (BINGOS)
 
+L<Acme::MetaSyntactic::legocityundercover> - LEGO City Undercover theme (BINGOS)
+
 L<Acme::MetaSyntactic::legoharrypotter> - LEGO Harry Potter theme (BINGOS)
 
 L<Acme::MetaSyntactic::legoindianajones> - LEGO Indiana Jones theme (BINGOS)
 
 L<Acme::MetaSyntactic::legolotr> - LEGO Lord of the Rings theme (BINGOS)
+
+L<Acme::MetaSyntactic::legomarvelsuperheroes> - LEGO Marvel Super Heroes theme (BINGOS)
 
 L<Acme::MetaSyntactic::legopiratesofthecaribbean> - LEGO Pirates of the Caribbean theme (BINGOS)
 

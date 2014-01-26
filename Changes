@@ -1,7 +1,11 @@
 Revision history for Task-MetaSyntactic
 
+1.029 Sun Jan 26 2014
+        - add Acme::MetaSyntactic::legocityundercover
+        - add Acme::MetaSyntactic::legomarvelsuperheroes
+
 1.028 Tue Jun 11 2013
-        - list distributions that require Amce::MetaSyntactic,
+        - list distributions that require Acme::MetaSyntactic,
           but that do not contain any themes
 
 1.027 Mon May 13 2013
