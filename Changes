@@ -1,5 +1,8 @@
 Revision history for Task-MetaSyntactic
 
+1.030 Wed Apr 16 2014
+        - list Data::Faker::MetaSyntactic under "OTHER METASYNTACTIC MODULES"
+
 1.029 Sun Jan 26 2014
         - add Acme::MetaSyntactic::legocityundercover
         - add Acme::MetaSyntactic::legomarvelsuperheroes

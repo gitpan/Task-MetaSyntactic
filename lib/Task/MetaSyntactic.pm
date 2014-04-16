@@ -1,6 +1,6 @@
 package Task::MetaSyntactic;
 {
-  $Task::MetaSyntactic::VERSION = '1.029';
+  $Task::MetaSyntactic::VERSION = '1.030';
 }
 
 use strict;
@@ -18,7 +18,7 @@ Task::MetaSyntactic - All Acme::MetaSyntactic themes at once
 
 =head1 VERSION
 
-version 1.029
+version 1.030
 
 =head1 SYNOPSIS
 
@@ -147,6 +147,13 @@ L<Acme::MetaSyntactic> themes.
 This is the application that L<Acme::MetaSyntactic> was created for.
 It only took eight years.
 
+=item L<Data::Faker::MetaSyntactic> (BOOK)
+
+First released on 2014-04-16
+
+L<Data::Faker> is all about metasyntactic data, so this module registers
+a data provider for each installed L<Acme::MetaSyntactic> theme.
+
 =back
 
 =head1 BUGS
@@ -165,7 +172,7 @@ Philippe Bruhat (BooK) <book@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright 2005-2013 Philippe Bruhat (BooK), All Rights Reserved.
+Copyright 2005-2014 Philippe Bruhat (BooK), All Rights Reserved.
 
 =head1 LICENSE
 
