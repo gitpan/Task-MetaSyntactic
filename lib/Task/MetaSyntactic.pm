@@ -1,24 +1,15 @@
 package Task::MetaSyntactic;
-{
-  $Task::MetaSyntactic::VERSION = '1.030';
-}
-
+$Task::MetaSyntactic::VERSION = '1.031';
 use strict;
 use warnings;
 
 'whack_eth';
 
-
-
-=pod
+__END__
 
 =head1 NAME
 
 Task::MetaSyntactic - All Acme::MetaSyntactic themes at once
-
-=head1 VERSION
-
-version 1.030
 
 =head1 SYNOPSIS
 
@@ -64,6 +55,8 @@ L<Acme::MetaSyntactic::Themes> - The original Acme::MetaSyntactic themes (BOOK)
 L<Acme::MetaSyntactic::Themes::Abigail> - More themes by Abigail (ABIGAIL)
 
 L<Acme::MetaSyntactic::buzzwords> - Pointy-haired boss lingo (JQUELIN)
+
+L<Acme::MetaSyntactic::cpanauthors> - We are CPAN authors, and metasyntactic! (BOOK)
 
 L<Acme::MetaSyntactic::daleks> - EXTERMINATE! EXTERMINATE! EXTERMINATE! (SAPER)
 
@@ -124,6 +117,8 @@ First released on 2006-09-02.
 This module was written in a hotel room in Birmingham, after the YAPC
 Europe 2006 auction. See also L<http://book.ismybit.ch/>.
 
+Now ironically maintained by BooK.
+
 =item L<Bot::BasicBot::Pluggable::Module::MetaSyntactic> (BOOK)
 
 First released on 2013-04-13.
@@ -149,26 +144,24 @@ It only took eight years.
 
 =item L<Data::Faker::MetaSyntactic> (BOOK)
 
-First released on 2014-04-16
+First released on 2014-04-16.
 
 L<Data::Faker> is all about metasyntactic data, so this module registers
 a data provider for each installed L<Acme::MetaSyntactic> theme.
 
+=item L<Acme::CPANAuthors::MetaSyntactic> (BOOK)
+
+First released on 2014-05-24.
+
+The L<Acme::CPANAuthors> series of modules aims at grouping CPAN authors
+by various criteria. It seems there are enough authors who have produced
+L<Acme::MetaSyntactic> themes to group them in their own category.
+
 =back
-
-=head1 BUGS
-
-Please report any bugs or feature requests on the bugtracker website
-http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-MetaSyntactic or by email to
-bug-task-metasyntactic@rt.cpan.org.
-
-When submitting a bug or request, please include a test-file or a
-patch to an existing test-file that illustrates the bug or desired
-feature.
 
 =head1 AUTHOR
 
-Philippe Bruhat (BooK) <book@cpan.org>
+Philippe Bruhat (BooK), <book@cpan.org>.
 
 =head1 COPYRIGHT
 
@@ -180,9 +173,3 @@ This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
 =cut
-
-
-__END__
-
-# ABSTRACT: All Acme::MetaSyntactic themes at once
-
