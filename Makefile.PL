@@ -35,7 +35,9 @@ my %WriteMakefileArgs = (
     "Acme::MetaSyntactic::legoindianajones" => 0,
     "Acme::MetaSyntactic::legolotr" => 0,
     "Acme::MetaSyntactic::legomarvelsuperheroes" => 0,
+    "Acme::MetaSyntactic::legomovievideogame" => 0,
     "Acme::MetaSyntactic::legopiratesofthecaribbean" => 0,
+    "Acme::MetaSyntactic::legothehobbit" => 0,
     "Acme::MetaSyntactic::morning_musume" => 0,
     "Acme::MetaSyntactic::nethack" => 0,
     "Acme::MetaSyntactic::soviet" => 0,
@@ -44,8 +46,11 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "TEST_REQUIRES" => {},
-  "VERSION" => "1.031",
+  "TEST_REQUIRES" => {
+    "File::Path" => 0,
+    "Test::More" => 0
+  },
+  "VERSION" => "1.032",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -67,12 +72,16 @@ my %FallbackPrereqs = (
   "Acme::MetaSyntactic::legoindianajones" => 0,
   "Acme::MetaSyntactic::legolotr" => 0,
   "Acme::MetaSyntactic::legomarvelsuperheroes" => 0,
+  "Acme::MetaSyntactic::legomovievideogame" => 0,
   "Acme::MetaSyntactic::legopiratesofthecaribbean" => 0,
+  "Acme::MetaSyntactic::legothehobbit" => 0,
   "Acme::MetaSyntactic::morning_musume" => 0,
   "Acme::MetaSyntactic::nethack" => 0,
   "Acme::MetaSyntactic::soviet" => 0,
   "Acme::MetaSyntactic::vim" => 0,
   "Acme::MetaSyntactic::xkcdcommon1949" => 0,
+  "File::Path" => 0,
+  "Test::More" => 0,
   "strict" => 0,
   "warnings" => 0
 );
